@@ -11,7 +11,6 @@ public class Player {
     private int tailPosition = 0; //如果进入尾巴,位置
     private boolean isWin;
     private int moves; // 移动次数
-    private int steps;
 
     public Player() {}
 
@@ -23,7 +22,6 @@ public class Player {
         this.tailEntrance = homePosition - 1;
         if (homePosition == 1) this.tailEntrance = board.getBoardPositions();
         this.tailLenth = tailLenth;
-        this.steps = 0;
     }
 
     public void move(int step) {
