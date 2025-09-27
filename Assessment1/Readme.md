@@ -1,4 +1,0 @@
-# Diagram
-
-Mermaid diagram:
-
