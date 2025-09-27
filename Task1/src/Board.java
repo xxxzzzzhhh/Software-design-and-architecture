@@ -4,7 +4,7 @@ import java.util.Random;
 public class Board {
     private int boardPositions;
     private ArrayList<Player> players;
-    private int turnCount; //回合數量
+    private int turnCount; //回合数\\\\\
     private int currentPlayerIndex;
 
     public Board() {}
